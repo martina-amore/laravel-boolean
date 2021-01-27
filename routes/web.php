@@ -22,3 +22,5 @@ Route::get('/dopoilcorso', 'DopoilcorsoController@index')->name('dopoilcorso');
 Route::get('/campgratuito', 'CampgratuitoController@index')->name('campgratuito');
 
 Route::get('/candidatiora', 'CandidatioraController@index')->name('candidatiora');
+
+Route::get('/utenti', 'UtentiController@index')->name('utenti');
